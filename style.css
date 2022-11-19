@@ -1,0 +1,109 @@
+:root {
+    --background: #7D0420;
+    --gray-800: #AA81CA;
+    --green-500: #EDD700;
+}
+
+* {
+  border: 0;
+  box-sizing: content-box;
+  font-family: 'Antonio', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    align-items: center;
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#infobox {
+    margin-top: 25px;
+    font-size: 50px;
+    color: #D6D6D6;
+}
+
+#count-down {
+    margin-top: 7%;
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+#count-down li {
+    background-color: var(--gray-800);
+    border-radius: 115px;
+    color: var(--green-500);
+    font-size: 50px;
+    font-weight: bold;
+    height: 100px;
+    padding: 8px 12px;
+    position: relative;
+    text-align: center;
+    width: 185px;
+}
+
+#count-down li:before,
+#count-down li:after {
+    position: absolute;
+}
+
+#count-down li:not(:last-child):before {
+    content: ":";
+    font-size: 24px;
+    right: -15px;
+    top: 15px;
+}
+
+#count-down li:after {
+    bottom: -16px;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 100;
+    justify-content: center;
+    width: calc(100% - 22px);
+}
+
+#count-down li.days:after {
+    content: "days";
+    font-size: 15px;
+}
+
+#count-down li.hours:after {
+    content: "hours";
+    font-size: 15px;
+}
+
+#count-down li.minutes:after {
+    content: "minutes";
+    font-size: 15px;
+}
+
+#count-down li.seconds:after {
+    content: "seconds";
+    font-size: 15px;
+}
+
+#match {
+    margin-top: 50px;
+    color: white;
+    font-size: 75px
+
+}
+
+#clock {
+  font-family: Arial;
+  background: #AA81CA;
+  font-size: 170px;
+  text-align: center;
+  margin-top: 50px;
+  color: #EDD700;
+}
+#timzonetxt {
+    color: #EDD700;
+    font-size: 65px
+}
