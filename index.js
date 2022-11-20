@@ -3,7 +3,7 @@ const minute = second * 60
 const hour = minute * 60
 const day = hour * 24
 
-const kickOffWorldCupDate = new Date('2022-11-20 18:00:00 UTC+2') // (the year when it starts-the month-the day  the hour-the minute-the second)
+const kickOffWorldCupDate = new Date('2022-12-18 17:00:00 UTC+2') // (the year when it starts-the month-the day  the hour-the minute-the second)
 // if the world cup starts, you just change the date.
 
 function zeroLeft (number) {
