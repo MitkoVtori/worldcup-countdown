@@ -107,3 +107,27 @@ body {
     color: #EDD700;
     font-size: 65px
 }
+
+
+.buff {
+    background: #2BCD79;
+    padding: 20px;
+    margin-top: 3%;
+}
+
+.buff video-title {
+    color: black;
+    font-size: 20px;
+
+}
+
+    .description p {
+        background: #1A1C1E;
+        color: #F1F1F1;
+        margin-top: 35px;
+        padding: 10px;
+    }
+
+        #link {
+            color: #F30B0B;
+        }
